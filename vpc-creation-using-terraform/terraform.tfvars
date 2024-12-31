@@ -1,0 +1,11 @@
+cidr_block="10.0.0.0/16"
+subnet_cidr_block = "10.0.0.0/20"
+vpc_name = "my_vpc"
+subnet_name = "my_subnet"
+subnet_availability_zone = "us-east-1a"
+igw_name = "my_igw"
+route_tbl_name = "my_route_tbl"
+image_id = "ami-0e2c8caa4b6378d8c" #needs to be changed according to region
+instance_type = "t2.micro"
+instance_name = "web-server"
+sg_name = "vpc-default-sg"
